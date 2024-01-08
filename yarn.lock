@@ -1042,9 +1042,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot-cloud/utils@npm:^0.2.0":
-  version: 0.2.0
-  resolution: "@polkadot-cloud/utils@npm:0.2.0"
+"@polkadot-cloud/utils@npm:^0.2.1":
+  version: 0.2.1
+  resolution: "@polkadot-cloud/utils@npm:0.2.1"
   dependencies:
     "@polkadot/keyring": "npm:^12.6.2"
     "@polkadot/util": "npm:^12.6.2"
@@ -1052,7 +1052,7 @@ __metadata:
   peerDependencies:
     "@polkadot/keyring": ^12.6.2
     "@polkadot/util": ^12.6.2
-  checksum: 58b6b94ea0faef514a148b449df64db1843a9a1c0fa04581a69437d08c7dba83d9b3d3a22ccd9aa61618362acb13e89bdc7ddbbc05a30bdfece5689676f98f0b
+  checksum: c1b47f1501e5f88aecee221c1a7ecfe801ed07c84b5c5c27b92677b5f21ce878ed308804618488611736bb46dc39a682c44eec346d9549503478b5dd50e98fa0
   languageName: node
   linkType: hard
 
@@ -6334,7 +6334,7 @@ __metadata:
     "@ledgerhq/hw-transport-webhid": "npm:^6.28.1"
     "@ledgerhq/logs": "npm:^6.12.0"
     "@polkadot-cloud/core": "npm:^1.2.0"
-    "@polkadot-cloud/utils": "npm:^0.2.0"
+    "@polkadot-cloud/utils": "npm:^0.2.1"
     "@polkadot/api": "npm:^10.11.2"
     "@polkadot/keyring": "npm:^12.6.2"
     "@polkadot/rpc-provider": "npm:^10.11.2"
