@@ -31,7 +31,7 @@
     "@polkadot/rpc-provider": "^10.11.2",
     "@polkadot/util": "^12.6.2",
     "@polkadot/util-crypto": "^12.6.2",
-    "@polkagate/cloud-assets": "^0.3.1",
+    "@polkagate/cloud-assets": "^0.3.2",
     "@polkagate/cloud-react": "^0.3.1",
     "@polkawatch/ddp-client": "^2.0.10",
     "@substrate/connect": "^0.8.3",
