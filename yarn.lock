@@ -1021,24 +1021,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot-cloud/core@npm:^1.1.0, @polkadot-cloud/core@npm:^1.2.0":
+"@polkadot-cloud/core@npm:^1.2.0":
   version: 1.2.0
   resolution: "@polkadot-cloud/core@npm:1.2.0"
   checksum: cb10590e9edd606e5a00591e07d507b01c5ac549cd5bf5c3ed3de16441e23c40570d9136b5437d6a80ed1e87abcc0cd79f7bd4fdd4b6e0bc7d0d9ff89162c694
-  languageName: node
-  linkType: hard
-
-"@polkadot-cloud/utils@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "@polkadot-cloud/utils@npm:0.1.1"
-  dependencies:
-    "@polkadot/keyring": "npm:^12.6.2"
-    "@polkadot/util": "npm:^12.6.2"
-    bignumber.js: "npm:^9.1.1"
-  peerDependencies:
-    "@polkadot/keyring": ^12.6.2
-    "@polkadot/util": ^12.6.2
-  checksum: 7afdaff56505c638a3c5e40c56156aa46f5077fda1dc26b25c134366402666b058be6ad174217ebaa0309cb6359d5f77ba366697dc76346a5e7c75e0c1919326
   languageName: node
   linkType: hard
 
@@ -1484,16 +1470,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkagate/cloud-assets@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@polkagate/cloud-assets@npm:0.3.0"
-  checksum: 66b837f2fb25f1f04e3ee952bf9a49a5dc1572321238ae7becff278728fb9bd5eaacb02e54241f6d54cf4bb752c5ea111a1abd69e0bc1bef2bc9cdd7be37a7ca
+"@polkagate/cloud-assets@npm:^0.3.1, @polkagate/cloud-assets@npm:^0.3.2":
+  version: 0.3.2
+  resolution: "@polkagate/cloud-assets@npm:0.3.2"
+  checksum: 24ce42117e503152e6b8e7777de6d8356cf2375bed58c9d42403617554fdef0a0c68387f15d0a31c70ad1a66c6abc85c263392a71681917d2cc0bd4cb83df7ae
   languageName: node
   linkType: hard
 
-"@polkagate/cloud-react@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@polkagate/cloud-react@npm:0.3.0"
+"@polkagate/cloud-react@npm:^0.3.1":
+  version: 0.3.1
+  resolution: "@polkagate/cloud-react@npm:0.3.1"
   dependencies:
     "@chainsafe/metamask-polkadot-adapter": "npm:^0.6.0"
     "@chainsafe/metamask-polkadot-types": "npm:^0.6.0"
@@ -1502,19 +1488,19 @@ __metadata:
     "@fortawesome/free-regular-svg-icons": "npm:^6.5.1"
     "@fortawesome/free-solid-svg-icons": "npm:^6.5.1"
     "@fortawesome/react-fontawesome": "npm:^0.2.0"
-    "@polkadot-cloud/core": "npm:^1.1.0"
-    "@polkadot-cloud/utils": "npm:^0.1.1"
+    "@polkadot-cloud/core": "npm:^1.2.0"
+    "@polkadot-cloud/utils": "npm:^0.2.0"
     "@polkadot/keyring": "npm:^12.6.2"
     "@polkadot/util": "npm:^12.6.2"
     "@polkadot/util-crypto": "npm:^12.6.2"
+    "@polkagate/cloud-assets": "npm:^0.3.1"
     "@polkagate/extension-dapp": "npm:latest"
-    "@polkagate/polkadot-cloud-assets": "npm:latest"
     framer-motion: "npm:^10.16.16"
     react-error-boundary: "npm:^4.0.12"
   peerDependencies:
     react: ^18.2.0
     react-dom: ^18.2.0
-  checksum: 4d5bbf2406e0c4c9d320ac54a536f46ba68266af818dc1ff61d7eeb0f1854fa1e2379753c1d7cb09a88bd14909bb78b90fd3133e7662ee9dca92c96b0127a457
+  checksum: c8f95c9e88141b18b68de78c6c4e3929cab3828d1e5de76e6e372afb4642d75d6b8587a8ea0771b8af371d532d038dfd865ebb0b7f9e52d022576f4e35bed760
   languageName: node
   linkType: hard
 
@@ -1532,13 +1518,6 @@ __metadata:
     "@polkadot/util": "*"
     "@polkadot/util-crypto": "*"
   checksum: e2e57b54bb550bbaf33676b621d53501de78dc15015ed3ad4bda186c2e4fe1695af653fb683a65c08386d2954b89780804bddf82a438ca0e3ec0c9bbfb023cdc
-  languageName: node
-  linkType: hard
-
-"@polkagate/polkadot-cloud-assets@npm:latest":
-  version: 0.3.1
-  resolution: "@polkagate/polkadot-cloud-assets@npm:0.3.1"
-  checksum: e67007be8a8055525a813330e82d27efb4c329a05a7442c733d0711cd532c4752e8ca44ca6b786381348956fe08fccd97d0343ff443959f7d37b0ceac194e1c5
   languageName: node
   linkType: hard
 
@@ -2353,56 +2332,57 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/expect@npm:1.1.1":
-  version: 1.1.1
-  resolution: "@vitest/expect@npm:1.1.1"
+"@vitest/expect@npm:1.3.0":
+  version: 1.3.0
+  resolution: "@vitest/expect@npm:1.3.0"
   dependencies:
-    "@vitest/spy": "npm:1.1.1"
-    "@vitest/utils": "npm:1.1.1"
+    "@vitest/spy": "npm:1.3.0"
+    "@vitest/utils": "npm:1.3.0"
     chai: "npm:^4.3.10"
-  checksum: c91e3ce92dafd77680638c47b800ce16733b6a40b9f9b4d67550a9c39b3c339a9751944af1aef7c37d4b99adcbdc22677edf25451c7848ca70cfb30dd494f0b5
+  checksum: 9650423899bd4ebbdaf32ae360d24c675c0a50116d0e7cae42c519c8d2487738e25756e88b5e2805b8786fee2620bf8436929c0b0bd79c3a04a8656cb2cd17e3
   languageName: node
   linkType: hard
 
-"@vitest/runner@npm:1.1.1":
-  version: 1.1.1
-  resolution: "@vitest/runner@npm:1.1.1"
+"@vitest/runner@npm:1.3.0":
+  version: 1.3.0
+  resolution: "@vitest/runner@npm:1.3.0"
   dependencies:
-    "@vitest/utils": "npm:1.1.1"
+    "@vitest/utils": "npm:1.3.0"
     p-limit: "npm:^5.0.0"
     pathe: "npm:^1.1.1"
-  checksum: f8aea970ac4aa062b03d1c96e6fa3b726f2bdf1fff3369587f13cf8032026fd0e01df1c849d8ff85306ab2d2cd0627693f6803b8d01da0a09b4403e80b9f77e0
+  checksum: 8533a1586854c2363be33dac319d955b9e083a40de18a0eada890dd26062149a8e877e088ed2c462e066dd9fccea127175abc71e78eaa47d76c09a8169b40c53
   languageName: node
   linkType: hard
 
-"@vitest/snapshot@npm:1.1.1":
-  version: 1.1.1
-  resolution: "@vitest/snapshot@npm:1.1.1"
+"@vitest/snapshot@npm:1.3.0":
+  version: 1.3.0
+  resolution: "@vitest/snapshot@npm:1.3.0"
   dependencies:
     magic-string: "npm:^0.30.5"
     pathe: "npm:^1.1.1"
     pretty-format: "npm:^29.7.0"
-  checksum: 7528041c6166ba65db68a12827c2e6cb1d045076ee5cdb01eac3a08b9717dcdf1b42341177e3f7c0e73cf403a29a5ac0cd494f7dd2be138ce665a65cebafa20c
+  checksum: 807f604a90d84ca6f9f39af8df87e4cca4d1b1569474d45df1c3f6f33b3a10e98118a7df107605b6366624fb9fe355e4411b9035e8e88e3c56117098c627b2b6
   languageName: node
   linkType: hard
 
-"@vitest/spy@npm:1.1.1":
-  version: 1.1.1
-  resolution: "@vitest/spy@npm:1.1.1"
+"@vitest/spy@npm:1.3.0":
+  version: 1.3.0
+  resolution: "@vitest/spy@npm:1.3.0"
   dependencies:
     tinyspy: "npm:^2.2.0"
-  checksum: 029aaf61efe8620be4462e73f398b38c151b7837c5c0f2b3b5dea1472d78140228a078f91a53f4871ee3d6b1a6b0a149ad1120c7d5ee3217ad680178f636e0c5
+  checksum: eac6e8a3f85d22f4cba31ff1c5043881e87681379ba79ffcd54a930725f01972607cdedd6ec43a2781ff57d0ca0016eccbc7cbb7ff4e35331e355edb63fbec1b
   languageName: node
   linkType: hard
 
-"@vitest/utils@npm:1.1.1":
-  version: 1.1.1
-  resolution: "@vitest/utils@npm:1.1.1"
+"@vitest/utils@npm:1.3.0":
+  version: 1.3.0
+  resolution: "@vitest/utils@npm:1.3.0"
   dependencies:
     diff-sequences: "npm:^29.6.3"
+    estree-walker: "npm:^3.0.3"
     loupe: "npm:^2.3.7"
     pretty-format: "npm:^29.7.0"
-  checksum: 218e9dd8f8ee24b57d1e3afe3cc05e8e8809c71fa4ab8f3b1e6c8bac809fc39eb19189f98568bcaf85bb9b047a98b864684b52fea998f9bb6d4fca92f03ac0e9
+  checksum: a2b78924ff0ccf85ff1f5d292dce5b8380bf5e4aaa8643baaed51e1a926c022d428557fafb657bc282f7a711d3411793c263a9fe5235fff9adc4f875030eb170
   languageName: node
   linkType: hard
 
@@ -2439,10 +2419,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn-walk@npm:^8.3.0":
-  version: 8.3.1
-  resolution: "acorn-walk@npm:8.3.1"
-  checksum: a23d2f7c6b6cad617f4c77f14dfeb062a239208d61753e9ba808d916c550add92b39535467d2e6028280761ac4f5a904cc9df21530b84d3f834e3edef74ddde5
+"acorn-walk@npm:^8.3.2":
+  version: 8.3.2
+  resolution: "acorn-walk@npm:8.3.2"
+  checksum: 7e2a8dad5480df7f872569b9dccff2f3da7e65f5353686b1d6032ab9f4ddf6e3a2cb83a9b52cf50b1497fd522154dda92f0abf7153290cc79cd14721ff121e52
   languageName: node
   linkType: hard
 
@@ -4055,6 +4035,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"estree-walker@npm:^3.0.3":
+  version: 3.0.3
+  resolution: "estree-walker@npm:3.0.3"
+  dependencies:
+    "@types/estree": "npm:^1.0.0"
+  checksum: c12e3c2b2642d2bcae7d5aa495c60fa2f299160946535763969a1c83fc74518ffa9c2cd3a8b69ac56aea547df6a8aac25f729a342992ef0bbac5f1c73e78995d
+  languageName: node
+  linkType: hard
+
 "esutils@npm:^2.0.2":
   version: 2.0.3
   resolution: "esutils@npm:2.0.3"
@@ -5282,6 +5271,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"js-tokens@npm:^8.0.2":
+  version: 8.0.3
+  resolution: "js-tokens@npm:8.0.3"
+  checksum: b50ba7d926b087ad31949d8155c7bc84374e0785019b17bdddeb2c4f98f5dea04ba464651fe23a8be4f7d15f50d06ce8bb536087b24ce3ebfbaea4a1dc5869f0
+  languageName: node
+  linkType: hard
+
 "js-yaml@npm:^4.1.0":
   version: 4.1.0
   resolution: "js-yaml@npm:4.1.0"
@@ -6340,8 +6336,8 @@ __metadata:
     "@polkadot/rpc-provider": "npm:^10.11.2"
     "@polkadot/util": "npm:^12.6.2"
     "@polkadot/util-crypto": "npm:^12.6.2"
-    "@polkagate/cloud-assets": "npm:^0.3.0"
-    "@polkagate/cloud-react": "npm:^0.3.0"
+    "@polkagate/cloud-assets": "npm:^0.3.2"
+    "@polkagate/cloud-react": "npm:^0.3.1"
     "@polkawatch/ddp-client": "npm:^2.0.10"
     "@substrate/connect": "npm:^0.8.3"
     "@types/chroma-js": "npm:^2.4.3"
@@ -6399,7 +6395,7 @@ __metadata:
     vite-plugin-eslint: "npm:^1.8.1"
     vite-plugin-svgr: "npm:^4.2.0"
     vite-tsconfig-paths: "npm:^4.2.3"
-    vitest: "npm:^1.1.0"
+    vitest: "npm:^1.3.0"
   languageName: unknown
   linkType: soft
 
@@ -7571,12 +7567,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strip-literal@npm:^1.3.0":
-  version: 1.3.0
-  resolution: "strip-literal@npm:1.3.0"
+"strip-literal@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "strip-literal@npm:2.0.0"
   dependencies:
-    acorn: "npm:^8.10.0"
-  checksum: 3c0c9ee41eb346e827eede61ef288457f53df30e3e6ff8b94fa81b636933b0c13ca4ea5c97d00a10d72d04be326da99ac819f8769f0c6407ba8177c98344a916
+    js-tokens: "npm:^8.0.2"
+  checksum: 63a6e4224ac7088ff93fd19fc0f6882705020da2f0767dbbecb929cbf9d49022e72350420f47be635866823608da9b9a5caf34f518004721895b6031199fc3c8
   languageName: node
   linkType: hard
 
@@ -7747,10 +7743,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinypool@npm:^0.8.1":
-  version: 0.8.1
-  resolution: "tinypool@npm:0.8.1"
-  checksum: d965c057a1866c9d83716f4e434f7be18b2a067ed3b32cc2de3b3bf34ca1756ac1c35bd04433e2086c8cc2afa75b328e4b17baa6b4e6292dba2ce31cc76770e0
+"tinypool@npm:^0.8.2":
+  version: 0.8.2
+  resolution: "tinypool@npm:0.8.2"
+  checksum: 8998626614172fc37c394e9a14e701dc437727fc6525488a4d4fd42044a4b2b59d6f076d750cbf5c699f79c58dd4e40599ab09e2f1ae0df4b23516b98c9c3055
   languageName: node
   linkType: hard
 
@@ -8177,9 +8173,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-node@npm:1.1.1":
-  version: 1.1.1
-  resolution: "vite-node@npm:1.1.1"
+"vite-node@npm:1.3.0":
+  version: 1.3.0
+  resolution: "vite-node@npm:1.3.0"
   dependencies:
     cac: "npm:^6.7.14"
     debug: "npm:^4.3.4"
@@ -8188,7 +8184,7 @@ __metadata:
     vite: "npm:^5.0.0"
   bin:
     vite-node: vite-node.mjs
-  checksum: 230cf5cd61d82899e6f83dbf852fbce9e785f02ec07d33456b54dbd56117981038e3611a2ab4dcba8520be9d17be4747a466192802dfaa0b67e42df454c62904
+  checksum: 7e8433608b06be7d4653f48226e76690f0fef6f05ce527dd6f27db701d40d750499b47e0bff8d8b134be1d78100fd5eb7c616dd8e1e91113fb07fc2abe869f1c
   languageName: node
   linkType: hard
 
@@ -8327,17 +8323,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitest@npm:^1.1.0":
-  version: 1.1.1
-  resolution: "vitest@npm:1.1.1"
+"vitest@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "vitest@npm:1.3.0"
   dependencies:
-    "@vitest/expect": "npm:1.1.1"
-    "@vitest/runner": "npm:1.1.1"
-    "@vitest/snapshot": "npm:1.1.1"
-    "@vitest/spy": "npm:1.1.1"
-    "@vitest/utils": "npm:1.1.1"
-    acorn-walk: "npm:^8.3.0"
-    cac: "npm:^6.7.14"
+    "@vitest/expect": "npm:1.3.0"
+    "@vitest/runner": "npm:1.3.0"
+    "@vitest/snapshot": "npm:1.3.0"
+    "@vitest/spy": "npm:1.3.0"
+    "@vitest/utils": "npm:1.3.0"
+    acorn-walk: "npm:^8.3.2"
     chai: "npm:^4.3.10"
     debug: "npm:^4.3.4"
     execa: "npm:^8.0.1"
@@ -8346,17 +8341,17 @@ __metadata:
     pathe: "npm:^1.1.1"
     picocolors: "npm:^1.0.0"
     std-env: "npm:^3.5.0"
-    strip-literal: "npm:^1.3.0"
+    strip-literal: "npm:^2.0.0"
     tinybench: "npm:^2.5.1"
-    tinypool: "npm:^0.8.1"
+    tinypool: "npm:^0.8.2"
     vite: "npm:^5.0.0"
-    vite-node: "npm:1.1.1"
+    vite-node: "npm:1.3.0"
     why-is-node-running: "npm:^2.2.2"
   peerDependencies:
     "@edge-runtime/vm": "*"
     "@types/node": ^18.0.0 || >=20.0.0
-    "@vitest/browser": ^1.0.0
-    "@vitest/ui": ^1.0.0
+    "@vitest/browser": 1.3.0
+    "@vitest/ui": 1.3.0
     happy-dom: "*"
     jsdom: "*"
   peerDependenciesMeta:
@@ -8374,7 +8369,7 @@ __metadata:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: 77c4dbc66b9ce2286224a55e9b80ad332ec4e1a178fbad2a6e599cc27d92ec81cefaf9e654cbe8842c7843e589efe1f3bf81e96ab0f59c745d836c9a937d7c28
+  checksum: 9195b0ace1bdda48509a927ab64f83a5dd1e2b7fafa1435ffdab17362f2870c4a03cd056dbb522b47d91a47441b920e0004ea97e2b3a2a85c0fb460d1676c04f
   languageName: node
   linkType: hard
 
