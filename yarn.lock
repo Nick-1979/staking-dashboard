@@ -1021,24 +1021,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot-cloud/core@npm:^1.1.0, @polkadot-cloud/core@npm:^1.2.0":
+"@polkadot-cloud/core@npm:^1.2.0":
   version: 1.2.0
   resolution: "@polkadot-cloud/core@npm:1.2.0"
   checksum: cb10590e9edd606e5a00591e07d507b01c5ac549cd5bf5c3ed3de16441e23c40570d9136b5437d6a80ed1e87abcc0cd79f7bd4fdd4b6e0bc7d0d9ff89162c694
-  languageName: node
-  linkType: hard
-
-"@polkadot-cloud/utils@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "@polkadot-cloud/utils@npm:0.1.1"
-  dependencies:
-    "@polkadot/keyring": "npm:^12.6.2"
-    "@polkadot/util": "npm:^12.6.2"
-    bignumber.js: "npm:^9.1.1"
-  peerDependencies:
-    "@polkadot/keyring": ^12.6.2
-    "@polkadot/util": ^12.6.2
-  checksum: 7afdaff56505c638a3c5e40c56156aa46f5077fda1dc26b25c134366402666b058be6ad174217ebaa0309cb6359d5f77ba366697dc76346a5e7c75e0c1919326
   languageName: node
   linkType: hard
 
@@ -1484,16 +1470,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkagate/cloud-assets@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@polkagate/cloud-assets@npm:0.3.0"
-  checksum: 66b837f2fb25f1f04e3ee952bf9a49a5dc1572321238ae7becff278728fb9bd5eaacb02e54241f6d54cf4bb752c5ea111a1abd69e0bc1bef2bc9cdd7be37a7ca
+"@polkagate/cloud-assets@npm:^0.3.1, @polkagate/cloud-assets@npm:^0.3.2":
+  version: 0.3.2
+  resolution: "@polkagate/cloud-assets@npm:0.3.2"
+  checksum: 24ce42117e503152e6b8e7777de6d8356cf2375bed58c9d42403617554fdef0a0c68387f15d0a31c70ad1a66c6abc85c263392a71681917d2cc0bd4cb83df7ae
   languageName: node
   linkType: hard
 
-"@polkagate/cloud-react@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@polkagate/cloud-react@npm:0.3.0"
+"@polkagate/cloud-react@npm:^0.3.1":
+  version: 0.3.1
+  resolution: "@polkagate/cloud-react@npm:0.3.1"
   dependencies:
     "@chainsafe/metamask-polkadot-adapter": "npm:^0.6.0"
     "@chainsafe/metamask-polkadot-types": "npm:^0.6.0"
@@ -1502,19 +1488,19 @@ __metadata:
     "@fortawesome/free-regular-svg-icons": "npm:^6.5.1"
     "@fortawesome/free-solid-svg-icons": "npm:^6.5.1"
     "@fortawesome/react-fontawesome": "npm:^0.2.0"
-    "@polkadot-cloud/core": "npm:^1.1.0"
-    "@polkadot-cloud/utils": "npm:^0.1.1"
+    "@polkadot-cloud/core": "npm:^1.2.0"
+    "@polkadot-cloud/utils": "npm:^0.2.0"
     "@polkadot/keyring": "npm:^12.6.2"
     "@polkadot/util": "npm:^12.6.2"
     "@polkadot/util-crypto": "npm:^12.6.2"
+    "@polkagate/cloud-assets": "npm:^0.3.1"
     "@polkagate/extension-dapp": "npm:latest"
-    "@polkagate/polkadot-cloud-assets": "npm:latest"
     framer-motion: "npm:^10.16.16"
     react-error-boundary: "npm:^4.0.12"
   peerDependencies:
     react: ^18.2.0
     react-dom: ^18.2.0
-  checksum: 4d5bbf2406e0c4c9d320ac54a536f46ba68266af818dc1ff61d7eeb0f1854fa1e2379753c1d7cb09a88bd14909bb78b90fd3133e7662ee9dca92c96b0127a457
+  checksum: c8f95c9e88141b18b68de78c6c4e3929cab3828d1e5de76e6e372afb4642d75d6b8587a8ea0771b8af371d532d038dfd865ebb0b7f9e52d022576f4e35bed760
   languageName: node
   linkType: hard
 
@@ -1532,13 +1518,6 @@ __metadata:
     "@polkadot/util": "*"
     "@polkadot/util-crypto": "*"
   checksum: e2e57b54bb550bbaf33676b621d53501de78dc15015ed3ad4bda186c2e4fe1695af653fb683a65c08386d2954b89780804bddf82a438ca0e3ec0c9bbfb023cdc
-  languageName: node
-  linkType: hard
-
-"@polkagate/polkadot-cloud-assets@npm:latest":
-  version: 0.3.1
-  resolution: "@polkagate/polkadot-cloud-assets@npm:0.3.1"
-  checksum: e67007be8a8055525a813330e82d27efb4c329a05a7442c733d0711cd532c4752e8ca44ca6b786381348956fe08fccd97d0343ff443959f7d37b0ceac194e1c5
   languageName: node
   linkType: hard
 
@@ -6340,8 +6319,8 @@ __metadata:
     "@polkadot/rpc-provider": "npm:^10.11.2"
     "@polkadot/util": "npm:^12.6.2"
     "@polkadot/util-crypto": "npm:^12.6.2"
-    "@polkagate/cloud-assets": "npm:^0.3.0"
-    "@polkagate/cloud-react": "npm:^0.3.0"
+    "@polkagate/cloud-assets": "npm:^0.3.2"
+    "@polkagate/cloud-react": "npm:^0.3.1"
     "@polkawatch/ddp-client": "npm:^2.0.10"
     "@substrate/connect": "npm:^0.8.3"
     "@types/chroma-js": "npm:^2.4.3"
@@ -6393,7 +6372,7 @@ __metadata:
     styled-components: "npm:^6.1.6"
     typescript: "npm:^5.3.3"
     usehooks-ts: "npm:^2.9.1"
-    vite: "npm:^5.0.10"
+    vite: "npm:^5.1.6"
     vite-bundle-visualizer: "npm:^1.0.0"
     vite-plugin-checker: "npm:^0.6.2"
     vite-plugin-eslint: "npm:^1.8.1"
@@ -6464,6 +6443,17 @@ __metadata:
     picocolors: "npm:^1.0.0"
     source-map-js: "npm:^1.0.2"
   checksum: 39308a9195fa34d4dbdd7b58a896cff0c7809f84f7a4ac1b95b68ca86c9138a395addff33075668ed3983d41b90aac05754c445237a9365eb1c3a5602ebd03ad
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^8.4.35":
+  version: 8.4.35
+  resolution: "postcss@npm:8.4.35"
+  dependencies:
+    nanoid: "npm:^3.3.7"
+    picocolors: "npm:^1.0.0"
+    source-map-js: "npm:^1.0.2"
+  checksum: e8dd04e48001eb5857abc9475365bf08f4e508ddf9bc0b8525449a95d190f10d025acebc5b56ac2e94b3c7146790e4ae78989bb9633cb7ee20d1cc9b7dc909b2
   languageName: node
   linkType: hard
 
@@ -8287,7 +8277,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^5.0.0, vite@npm:^5.0.10":
+"vite@npm:^5.0.0":
   version: 5.0.10
   resolution: "vite@npm:5.0.10"
   dependencies:
@@ -8324,6 +8314,46 @@ __metadata:
   bin:
     vite: bin/vite.js
   checksum: d666b2760d2a7ea1d0d35f67c042053e562144f80554be4e4dc58e607fd5f62193cd203d73ab2e315df66830d8b9d9a2e3509d0208bdef1b2e92e0a5c364df84
+  languageName: node
+  linkType: hard
+
+"vite@npm:^5.1.6":
+  version: 5.1.6
+  resolution: "vite@npm:5.1.6"
+  dependencies:
+    esbuild: "npm:^0.19.3"
+    fsevents: "npm:~2.3.3"
+    postcss: "npm:^8.4.35"
+    rollup: "npm:^4.2.0"
+  peerDependencies:
+    "@types/node": ^18.0.0 || >=20.0.0
+    less: "*"
+    lightningcss: ^1.21.0
+    sass: "*"
+    stylus: "*"
+    sugarss: "*"
+    terser: ^5.4.0
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  peerDependenciesMeta:
+    "@types/node":
+      optional: true
+    less:
+      optional: true
+    lightningcss:
+      optional: true
+    sass:
+      optional: true
+    stylus:
+      optional: true
+    sugarss:
+      optional: true
+    terser:
+      optional: true
+  bin:
+    vite: bin/vite.js
+  checksum: b935527544741d9313143a77f811d97b8b094757e42f9c02b7aca6294a4912674dbad5379e4759629b6ba895c93b5020cc7594f74b37846715336837fdce850a
   languageName: node
   linkType: hard
 
