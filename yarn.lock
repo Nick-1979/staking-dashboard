@@ -1021,24 +1021,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot-cloud/core@npm:^1.1.0, @polkadot-cloud/core@npm:^1.2.0":
+"@polkadot-cloud/core@npm:^1.2.0":
   version: 1.2.0
   resolution: "@polkadot-cloud/core@npm:1.2.0"
   checksum: cb10590e9edd606e5a00591e07d507b01c5ac549cd5bf5c3ed3de16441e23c40570d9136b5437d6a80ed1e87abcc0cd79f7bd4fdd4b6e0bc7d0d9ff89162c694
-  languageName: node
-  linkType: hard
-
-"@polkadot-cloud/utils@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "@polkadot-cloud/utils@npm:0.1.1"
-  dependencies:
-    "@polkadot/keyring": "npm:^12.6.2"
-    "@polkadot/util": "npm:^12.6.2"
-    bignumber.js: "npm:^9.1.1"
-  peerDependencies:
-    "@polkadot/keyring": ^12.6.2
-    "@polkadot/util": ^12.6.2
-  checksum: 7afdaff56505c638a3c5e40c56156aa46f5077fda1dc26b25c134366402666b058be6ad174217ebaa0309cb6359d5f77ba366697dc76346a5e7c75e0c1919326
   languageName: node
   linkType: hard
 
@@ -1484,16 +1470,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkagate/cloud-assets@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@polkagate/cloud-assets@npm:0.3.0"
-  checksum: 66b837f2fb25f1f04e3ee952bf9a49a5dc1572321238ae7becff278728fb9bd5eaacb02e54241f6d54cf4bb752c5ea111a1abd69e0bc1bef2bc9cdd7be37a7ca
+"@polkagate/cloud-assets@npm:^0.3.1, @polkagate/cloud-assets@npm:^0.3.2":
+  version: 0.3.2
+  resolution: "@polkagate/cloud-assets@npm:0.3.2"
+  checksum: 24ce42117e503152e6b8e7777de6d8356cf2375bed58c9d42403617554fdef0a0c68387f15d0a31c70ad1a66c6abc85c263392a71681917d2cc0bd4cb83df7ae
   languageName: node
   linkType: hard
 
-"@polkagate/cloud-react@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@polkagate/cloud-react@npm:0.3.0"
+"@polkagate/cloud-react@npm:^0.3.1":
+  version: 0.3.1
+  resolution: "@polkagate/cloud-react@npm:0.3.1"
   dependencies:
     "@chainsafe/metamask-polkadot-adapter": "npm:^0.6.0"
     "@chainsafe/metamask-polkadot-types": "npm:^0.6.0"
@@ -1502,19 +1488,19 @@ __metadata:
     "@fortawesome/free-regular-svg-icons": "npm:^6.5.1"
     "@fortawesome/free-solid-svg-icons": "npm:^6.5.1"
     "@fortawesome/react-fontawesome": "npm:^0.2.0"
-    "@polkadot-cloud/core": "npm:^1.1.0"
-    "@polkadot-cloud/utils": "npm:^0.1.1"
+    "@polkadot-cloud/core": "npm:^1.2.0"
+    "@polkadot-cloud/utils": "npm:^0.2.0"
     "@polkadot/keyring": "npm:^12.6.2"
     "@polkadot/util": "npm:^12.6.2"
     "@polkadot/util-crypto": "npm:^12.6.2"
+    "@polkagate/cloud-assets": "npm:^0.3.1"
     "@polkagate/extension-dapp": "npm:latest"
-    "@polkagate/polkadot-cloud-assets": "npm:latest"
     framer-motion: "npm:^10.16.16"
     react-error-boundary: "npm:^4.0.12"
   peerDependencies:
     react: ^18.2.0
     react-dom: ^18.2.0
-  checksum: 4d5bbf2406e0c4c9d320ac54a536f46ba68266af818dc1ff61d7eeb0f1854fa1e2379753c1d7cb09a88bd14909bb78b90fd3133e7662ee9dca92c96b0127a457
+  checksum: c8f95c9e88141b18b68de78c6c4e3929cab3828d1e5de76e6e372afb4642d75d6b8587a8ea0771b8af371d532d038dfd865ebb0b7f9e52d022576f4e35bed760
   languageName: node
   linkType: hard
 
@@ -1532,13 +1518,6 @@ __metadata:
     "@polkadot/util": "*"
     "@polkadot/util-crypto": "*"
   checksum: e2e57b54bb550bbaf33676b621d53501de78dc15015ed3ad4bda186c2e4fe1695af653fb683a65c08386d2954b89780804bddf82a438ca0e3ec0c9bbfb023cdc
-  languageName: node
-  linkType: hard
-
-"@polkagate/polkadot-cloud-assets@npm:latest":
-  version: 0.3.1
-  resolution: "@polkagate/polkadot-cloud-assets@npm:0.3.1"
-  checksum: e67007be8a8055525a813330e82d27efb4c329a05a7442c733d0711cd532c4752e8ca44ca6b786381348956fe08fccd97d0343ff443959f7d37b0ceac194e1c5
   languageName: node
   linkType: hard
 
@@ -2237,21 +2216,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^6.16.0":
-  version: 6.17.0
-  resolution: "@typescript-eslint/parser@npm:6.17.0"
+"@typescript-eslint/parser@npm:^7.4.0":
+  version: 7.4.0
+  resolution: "@typescript-eslint/parser@npm:7.4.0"
   dependencies:
-    "@typescript-eslint/scope-manager": "npm:6.17.0"
-    "@typescript-eslint/types": "npm:6.17.0"
-    "@typescript-eslint/typescript-estree": "npm:6.17.0"
-    "@typescript-eslint/visitor-keys": "npm:6.17.0"
+    "@typescript-eslint/scope-manager": "npm:7.4.0"
+    "@typescript-eslint/types": "npm:7.4.0"
+    "@typescript-eslint/typescript-estree": "npm:7.4.0"
+    "@typescript-eslint/visitor-keys": "npm:7.4.0"
     debug: "npm:^4.3.4"
   peerDependencies:
-    eslint: ^7.0.0 || ^8.0.0
+    eslint: ^8.56.0
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 66b53159688083eb48259de5b4daf076f3de284ac3b4d2618bda3f7ab2d8ee27b01ae851b08e8487047e33ff3668424f17d677d66413164cb231f1519dcff82f
+  checksum: 70ae32d406685e83fc26b4f4d3eb90c59965e0ff4fec4fd89ecd3cb386376bedb75cd8c11691b9de4743243d61a7d17ae242fe6c689a7c443a8977bc9755700b
   languageName: node
   linkType: hard
 
@@ -2262,6 +2241,16 @@ __metadata:
     "@typescript-eslint/types": "npm:6.17.0"
     "@typescript-eslint/visitor-keys": "npm:6.17.0"
   checksum: b7ac7d9c39515c2a1b3844577fab967bf126ec25ccf28076240748b3f42d60ab3e64131bfffee61f66251bdf2d59e50e39f5cb0bee7987c85c49140c75d26b5f
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/scope-manager@npm:7.4.0":
+  version: 7.4.0
+  resolution: "@typescript-eslint/scope-manager@npm:7.4.0"
+  dependencies:
+    "@typescript-eslint/types": "npm:7.4.0"
+    "@typescript-eslint/visitor-keys": "npm:7.4.0"
+  checksum: d1dddf6819d753063fbbcae2cd01e861d0162a9755c6c786901654ccb9d316ca1dcc5887a61fb70e72372db4c2e67c6d1890f09d8b0270971c18b48808765ba9
   languageName: node
   linkType: hard
 
@@ -2289,6 +2278,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@typescript-eslint/types@npm:7.4.0":
+  version: 7.4.0
+  resolution: "@typescript-eslint/types@npm:7.4.0"
+  checksum: 685df163cdd6d546de8a2d22896e461777a89756faf1f34342c959e7d3f4cc75b1f47a96da50483fe1da75d06515bb105f58339d277ad7e02c15ab61c90ad097
+  languageName: node
+  linkType: hard
+
 "@typescript-eslint/typescript-estree@npm:6.17.0":
   version: 6.17.0
   resolution: "@typescript-eslint/typescript-estree@npm:6.17.0"
@@ -2305,6 +2301,25 @@ __metadata:
     typescript:
       optional: true
   checksum: 5a858288bb05f45a2a45b04394115826ff19f85555144bfb67dc281d4e75fc3a1e1aceb3dee68022e86b91f199d1310c15bda3100a4890004b8e474d86afad51
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/typescript-estree@npm:7.4.0":
+  version: 7.4.0
+  resolution: "@typescript-eslint/typescript-estree@npm:7.4.0"
+  dependencies:
+    "@typescript-eslint/types": "npm:7.4.0"
+    "@typescript-eslint/visitor-keys": "npm:7.4.0"
+    debug: "npm:^4.3.4"
+    globby: "npm:^11.1.0"
+    is-glob: "npm:^4.0.3"
+    minimatch: "npm:9.0.3"
+    semver: "npm:^7.5.4"
+    ts-api-utils: "npm:^1.0.1"
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 31910f9283bcb2db7d3dd77b5a3b0c52e9769cd296e78a5ba742360f9e1971a6a3e1b5eb31109b4d584a62c2caa3075a346c5413b55e28cda0226a73865d62b7
   languageName: node
   linkType: hard
 
@@ -2332,6 +2347,16 @@ __metadata:
     "@typescript-eslint/types": "npm:6.17.0"
     eslint-visitor-keys: "npm:^3.4.1"
   checksum: 75a48f5810c6a69bc1c082b07d2b840c40895807b1b4ecf9d3ab9eb783176eeb3e7b11eb89d652e8331da79d604f82300f315ffc21cd937819197a8601b48d1d
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/visitor-keys@npm:7.4.0":
+  version: 7.4.0
+  resolution: "@typescript-eslint/visitor-keys@npm:7.4.0"
+  dependencies:
+    "@typescript-eslint/types": "npm:7.4.0"
+    eslint-visitor-keys: "npm:^3.4.1"
+  checksum: bd2ca99f4a771494b89124a1e4cd7f3c817ca4916b8a0168c5c226a245f25cf646b10095100fb8cb6d97134f63fa5bb15098daa94f48657b65332e8671ffdb52
   languageName: node
   linkType: hard
 
@@ -6340,8 +6365,8 @@ __metadata:
     "@polkadot/rpc-provider": "npm:^10.11.2"
     "@polkadot/util": "npm:^12.6.2"
     "@polkadot/util-crypto": "npm:^12.6.2"
-    "@polkagate/cloud-assets": "npm:^0.3.0"
-    "@polkagate/cloud-react": "npm:^0.3.0"
+    "@polkagate/cloud-assets": "npm:^0.3.2"
+    "@polkagate/cloud-react": "npm:^0.3.1"
     "@polkawatch/ddp-client": "npm:^2.0.10"
     "@substrate/connect": "npm:^0.8.3"
     "@types/chroma-js": "npm:^2.4.3"
@@ -6352,7 +6377,7 @@ __metadata:
     "@types/react-scroll": "npm:^1.8.10"
     "@types/styled-components": "npm:^5.1.34"
     "@typescript-eslint/eslint-plugin": "npm:^6.16.0"
-    "@typescript-eslint/parser": "npm:^6.16.0"
+    "@typescript-eslint/parser": "npm:^7.4.0"
     "@vitejs/plugin-react-swc": "npm:^3.5.0"
     "@zondax/ledger-substrate": "npm:^0.41.3"
     bignumber.js: "npm:^9.1.2"
